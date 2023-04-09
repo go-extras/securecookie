@@ -1,15 +1,9 @@
 # securecookie
 
-[![GoDoc](https://godoc.org/github.com/gorilla/securecookie?status.svg)](https://godoc.org/github.com/gorilla/securecookie) [![Build Status](https://travis-ci.org/gorilla/securecookie.png?branch=master)](https://travis-ci.org/gorilla/securecookie)
-[![Sourcegraph](https://sourcegraph.com/github.com/gorilla/securecookie/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/securecookie?badge)
+[![GoDoc](https://godoc.org/github.com/go-extras/securecookie?status.svg)](https://godoc.org/github.com/go-extras/securecookie)
+[![Build Status](https://github.com/go-extras/securecookie/actions/workflows/main.yml/badge.svg)](https://github.com/go-extras/securecookie/actions/workflows/main.yml)
 
----
-
-**The Gorilla project has been archived, and is no longer under active maintainenance. You can read more here: https://github.com/gorilla#gorilla-toolkit**
-
----
-
-securecookie encodes and decodes authenticated and optionally encrypted
+`securecookie` encodes and decodes authenticated and optionally encrypted
 cookie values.
 
 Secure cookies can't be forged, because their values are validated using HMAC.
@@ -141,6 +135,8 @@ func Rotate(newCookie *securecookie.SecureCookie) {
 }
 ```
 
-## License
+### Contribution
+Contributions are welcome! Please feel free to submit any issues or pull requests.
 
-BSD licensed. See the LICENSE file for details.
+### License
+This module is licensed under the BSD-3-Clause License. See the [LICENSE](LICENSE) file for details.
